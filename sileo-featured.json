@@ -5,7 +5,7 @@
  "banners": [
   {
    "url": "https://invalidunit.github.io/sileodepiction/Default/top_0.png",
-   "title": "我爱中国",
+   "title": "wechatnotiavatar",
    "package": "com.netskao.wechatnotiavatar",
    "hideShadow": false
   },
@@ -24,5 +24,6 @@
  ]
 
 }
+
 
 
