@@ -1,0 +1,30 @@
+name: Update Repository
+
+on:
+  push:
+    paths:
+      - '*.deb'  # 当有新的deb文件时触发
+  schedule:
+    - cron: '0 0 * * *'  # 每天自动运行
+  workflow_dispatch:  # 手动触发选项
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Run update script
+      run: |
+        chmod +x update.sh
+        ./update.sh
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff-index --quiet HEAD || git commit -m "Auto-update repository"
+        git push
