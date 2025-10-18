@@ -23,6 +23,24 @@ Icon: https://axs66.github.io/repo/icon/vitreux.png
 Name: Vitreux 液态玻璃
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
 
+Package: com.netskao.wechatnotiavatar
+Version: 1.3-1
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 1228
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/com.netskao.wechatnotiavatar_1.3-1_iphoneos-arm64.deb
+Size: 341480
+MD5sum: 3364b9661d941e6c976c1e94702d2a24
+SHA1: 89de2dea255b0173e41d0f3c0c0ebab9bd16ccf9
+SHA256: fb4cadc7d0bfa3ffce9a32df67c7fb50ef53f024737d1f8c513533893e428538
+Section: Netskao-Tweaks
+Description: Display Notification Avatars for WeChat App using iOS15+ APIs
+Author: Netskao
+Name: WeChatNotiAvatar
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
+
 Package: zp.aemuloauto.rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64e
