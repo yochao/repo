@@ -73,6 +73,24 @@ Author: Netskao
 Name: WeChatNotiAvatar
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
 
+Package: jp.dcsyhi.kbappdock
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi
+Installed-Size: 1364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/jp.dcsyhi.kbappdock_1.5_iphoneos-arm64e-RootHide.deb
+Size: 842632
+MD5sum: 75b71c5c4706b3355897236b8867b3fa
+SHA1: 83d270de8671722c97b5d895e64ac4ca59c2b018
+SHA256: 41e98b8f0a6b3e6c8723824df4b7afbd8c8de97fa9fcfd3866979b904e374504
+Section: Tweaks
+Description: You can arrange apps on the dock of keyboard ⌨️.
+Author: Dcsyhi
+Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
+Name: KBApp
+
 Package: zp.aemuloauto.rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64e
