@@ -12,7 +12,7 @@
   {
    "url": "https://invalidunit.github.io/sileodepiction/Default/top.png",
    "title": "crc",
-   "package": "com.nan.crc",
+   "package": "com.dao.icleanerpro",
    "hideShadow": false
   },
   {
@@ -24,3 +24,4 @@
  ]
 
 }
+
