@@ -5,8 +5,8 @@
  "banners": [
   {
    "url": "https://invalidunit.github.io/sileodepiction/Default/top_0.png",
-   "title": "dpkg-fill",
-   "package": "com.nan.dpkg-fill",
+   "title": "我爱中国",
+   "package": "com.netskao.wechatnotiavatar",
    "hideShadow": false
   },
   {
@@ -22,4 +22,5 @@
    "hideShadow": false
   }
  ]
+
 }
