@@ -55,6 +55,24 @@ Icon: https://axs66.github.io/repo/icon/vitreux.png
 Name: Vitreux 液态玻璃
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
 
+Package: com.netskao.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 13548
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/iphoneos-arm64e/com.netskao.appdata_1.4.4_iphoneos-arm64e-RootHide.deb
+Size: 14517792
+MD5sum: 1a48ada5f96accbe6486ee93c5d1fe3f
+SHA1: dd9ffd2f9424395306a20c75019edd3bd6bd0b2b
+SHA256: 8f21e0c908179b2fa08ae98e60971b995264aebf5f3997a3ee61140f4863248b
+Section: Netskao-Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Name: AppData
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
+
 Package: com.netskao.wechatnotiavatar
 Version: 1.3-1
 Architecture: iphoneos-arm64e
