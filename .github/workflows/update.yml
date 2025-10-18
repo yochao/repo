@@ -3,7 +3,7 @@ name: Update Repository
 on:
   push:
     paths:
-      - '*.deb'
+      - 'debs/**/*.deb'
   workflow_dispatch:
 
 jobs:
