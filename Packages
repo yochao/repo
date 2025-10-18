@@ -1,3 +1,20 @@
+Package: com.dao.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e-RootHide.deb
+Size: 2758830
+MD5sum: 52a564cb08c2b9b163e1a49b8f2cde86
+SHA1: 17b53837983f6698b233cf6e753a52ac68533f9a
+SHA256: b0151a96808648674bdcba07d2486cf8ee258f760c398e2d51ac37b258b9571c
+Section: 嗨-工具
+Description: 真正的iOS系统清理和管理实用程序，默认简体中文，破解版。
+Author: Ivano Bilenchi
+Name: iCleaner Pro(rootless)
+
 Package: com.mtac.vitreux
 Version: 1.2
 Architecture: iphoneos-arm64e
