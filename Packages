@@ -1,3 +1,18 @@
+Package: com.SeaWind.JYSS
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: SeaWind
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/禁用通知中心下拉手势-RootHide.deb
+Size: 4116
+MD5sum: d88f9bcf9aeccc5a7d42c1f9811b9097
+SHA1: 513d7f206873081b2c87ec60bbddf7b1f7a25574
+SHA256: 30f7dd62ba3228f4312c7f650d5bb8e6ea18649d300e93b8cbb2758322bcc433
+Section: Tweaks
+Description: 兼容iOS15.0-15.4.1多巴胺越狱 插件说明:仅在应用程序内禁用通知中心的下拉手势。(适用于游戏)，返回桌面不影响通知中心手势，该插件默认生效全局应用，并不能单一选择应用
+Author: SeaWind
+Name: 禁用通知下拉手势-RootHide
+
 Package: com.dao.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64e
