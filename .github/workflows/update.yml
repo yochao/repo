@@ -3,10 +3,10 @@ name: Update Repository
 on:
   push:
     paths:
-      - '*.deb'  # 当有新的deb文件时触发
+      - '*.deb'
   schedule:
-    - cron: '0 0 * * *'  # 每天自动运行
-  workflow_dispatch:  # 手动触发选项
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -15,7 +15,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+      with:
+        token: ${{ secrets._KEY }}
+        
     - name: Run update script
       run: |
         chmod +x update.sh
