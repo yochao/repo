@@ -1,0 +1,30 @@
+name: Update Repository
+
+on:
+  push:
+    paths:
+      - 'debs/**/*.deb'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.TOKEN }}
+        
+    - name: Run update script
+      run: |
+        chmod +x update.sh
+        ./update.sh
+        
+    - name: Commit and push
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Auto-update repository
+        file_pattern: 'Packages*'
