@@ -14,6 +14,23 @@ Description: 微信助手
 Author: Mao
 Name: 微信助手
 
+Package: com.SeaWind.JYSS
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: SeaWind
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: firmware (>= 16.0)
+Filename: ./debs/roothide/禁用通知中心下拉手势.deb
+Size: 4264
+MD5sum: 3f757351b8eee19ca4bf56dc7c82aa21
+SHA1: d966d0a8240ffdf6c87e3ae5fd1a4a6cb61a99f2
+SHA256: e33fbabf20e9b4231d1eb15dc2ae864101bc0a8c2e26ec596517d647ae90d2ae
+Section: iXoo-系统
+Description: 兼容iOS15.0-15.4.1多巴胺越狱 插件说明:仅在应用程序内禁用通知中心的下拉手势。(适用于游戏)，返回桌面不影响通知中心手势，该插件默认生效全局应用，并不能单一选择应用
+Author: SeaWind
+Name: 禁用通知下拉手势-RootHide
+Sileodepiction: https://yochao.github.io/sileodepiction/com.xybp888.callassist15.roothiden/js.json
+
 Package: com.nan.givemedeb
 Version: 0.2.1
 Architecture: iphoneos-arm
