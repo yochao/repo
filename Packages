@@ -13,7 +13,6 @@ Priority: optional
 Description: 微信助手
 Author: Mao
 Name: 微信助手
-Sileodepiction: https://yochao.github.io/sileodepiction/com.xybp888.callassist15.roothiden/js.json
 
 Package: com.SeaWind.JYSS
 Version: 1.0
@@ -29,6 +28,7 @@ Section: iXoo-系统
 Description: 兼容iOS15.0-15.4.1多巴胺越狱 插件说明:仅在应用程序内禁用通知中心的下拉手势。(适用于游戏)，返回桌面不影响通知中心手势，该插件默认生效全局应用，并不能单一选择应用
 Author: SeaWind
 Name: 禁用通知下拉手势-RootHide
+Sileodepiction: https://yochao.github.io/sileodepiction/com.xybp888.callassist15.roothiden/js.json
 
 Package: com.nan.givemedeb
 Version: 0.2.1
