@@ -1,0 +1,133 @@
+Package: com.25mao.MiYou
+Version: 3.8-7
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/rootful/微信助手_3.8-7.deb
+Size: 8291514
+MD5sum: 3236db36c9aa9b09cbf6f58c27ec03d7
+SHA1: b7892afc404d47ff4c049ea2a5f5e5c5c121a14b
+SHA256: a449944d14719621cfd425d4ec732184e0bf7addce61190ca1ec481f478c4c17
+Section: Tweaks
+Priority: optional
+Description: 微信助手
+Author: Mao
+Name: 微信助手
+
+Package: com.SeaWind.JYSS
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: SeaWind
+Depends: mobilesubstrate
+Filename: ./debs/roothide/禁用通知中心下拉手势.deb
+Size: 4128
+MD5sum: 1e9dbc77467a015e8e124dfb3bb546d7
+SHA1: 3ef9701d25fb6118a370abf04a4363eb0b78f779
+SHA256: b30778a3a2a758549f87b9dc8b5c59b2296650771d556576fd6e86b3e6afb692
+Section: iXoo-系统
+Description: 兼容iOS15.0-15.4.1多巴胺越狱 插件说明:仅在应用程序内禁用通知中心的下拉手势。(适用于游戏)，返回桌面不影响通知中心手势，该插件默认生效全局应用，并不能单一选择应用
+Author: SeaWind
+Name: 禁用通知下拉手势-RootHide
+
+Package: com.nan.givemedeb
+Version: 0.2.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/History/rootful/com.nan.givemedeb_0.2.1_iphoneos-arm.deb
+Size: 2420
+MD5sum: 95b6598474df3c430c04c524b6288c10
+SHA1: 2cc3a4fcca5e0f57b5eb9e86d8e1cfc7d04b9a17
+SHA256: 6d5694bc0e7071c3bd6e4ba700bdf265da0d81086bde2916083008ca74e8ec28
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.2.1
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/History/roothide/com.nan.givemedeb_0.2.1_iphoneos-arm64e.deb
+Size: 2424
+MD5sum: 0cd215ddd8f6f70faf13b747c95ee91c
+SHA1: b42317a5b1a64e43571838795550382cce79cc6c
+SHA256: 46a88852cfb49fa39a802d87dee8d7ded461bc982219f55ee47446610183b692
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/History/rootless/com.nan.givemedeb_0.2.1_iphoneos-arm64.deb
+Size: 2452
+MD5sum: 9400df388ef7ee3a626acd8a95af5521
+SHA1: 685af9088466a32d0bace2719ea6f1b119879d08
+SHA256: 084fe1fad2bda97ba187eb863b70c3cfa8e2b8f4e8bd934e1b21f87afccd209b
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.3.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/rootful/com.nan.givemedeb_0.3.1_iphoneos-arm.deb
+Size: 2200
+MD5sum: 34b20377776ab038f30eefbbc7f26ad9
+SHA1: 3f85518c31189a58b6bd79a543d544a6eee9e39b
+SHA256: fef041676577bfbd4d4e7c5084dbf27b4092e8720a8b9c3a799a69cd0f6ee513
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.3.1
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/roothide/com.nan.givemedeb_0.3.1_iphoneos-arm64e.deb
+Size: 2200
+MD5sum: 43dc07ab1f6f1a8fec76cfceab5edd11
+SHA1: f3436a178a710751f3474b4fada8e28e7569f3bb
+SHA256: 897e6a0b7b99e37f848dc68d7737fa07a07aae5ecd6fd577a66e0efd4968aaf0
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/rootless/com.nan.givemedeb_0.3.1_iphoneos-arm64.deb
+Size: 2228
+MD5sum: fa9e17dd7ee653037b52627dd243ff7b
+SHA1: 476f2b824977c64f36e7e124f203fedab46f7d85
+SHA256: aada23ee1fa1a70fd11ea99b8e4ca19b13c8284f71e46b14d2e869573f38e88f
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
