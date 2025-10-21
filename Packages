@@ -133,3 +133,20 @@ Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Give me deb
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
 
+Package: com.xybp888.callassist16.dopamine.roothide
+Version: 1.7.8
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/roothide/com.xybp888.callassist16.dopamine.roothide_1.7.8_3.deb
+Size: 3281208
+MD5sum: 4e606276ee7e75552e855e959ca63cfb
+SHA1: 5c6d81b2557cd983de0164a0f57b21787c0e16ca
+SHA256: dc82dd9292a90a6fd5daf5778e4edc716c37b5a3bdb2b4553b5bff5b74962d5a
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Name: 电话助手iOS16-正式版(Roothide)
+Sileodepiction: https://apt.htv123.com/sileo/314
+
