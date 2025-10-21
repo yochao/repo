@@ -14,6 +14,71 @@ Description: 微信助手
 Author: Mao
 Name: 微信助手
 
+Package: com.82flex.noredirect
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/roothide/禁字诀com.82flex.noredirect_1.3_iphoneos-arm64e-RootHide.deb
+Size: 57336
+MD5sum: c3268e90a8bfd8699038d325fe138dc8
+SHA1: 7ae6ee711a4ef303c233fdb9c2e667659cf1a42b
+SHA256: 55bf98d766ae9850556104db7996244689a921c3ce890ebd53489091103da1da
+Section: 嗨-工具
+Description: 阻止指定的应用程序重定向到App Store、Safari或其他应用程序。
+Author: Lessica <82flex@gmail.com>
+Name: 禁字诀(rootless)
+
+Package: com.SeaWind.JYSS
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: SeaWind
+Depends: mobilesubstrate
+Filename: ./debs/roothide/禁用通知中心下拉手势-RootHide.deb
+Size: 4116
+MD5sum: d88f9bcf9aeccc5a7d42c1f9811b9097
+SHA1: 513d7f206873081b2c87ec60bbddf7b1f7a25574
+SHA256: 30f7dd62ba3228f4312c7f650d5bb8e6ea18649d300e93b8cbb2758322bcc433
+Section: Tweaks
+Description: 兼容iOS15.0-15.4.1多巴胺越狱 插件说明:仅在应用程序内禁用通知中心的下拉手势。(适用于游戏)，返回桌面不影响通知中心手势，该插件默认生效全局应用，并不能单一选择应用
+Author: SeaWind
+Name: 禁用通知下拉手势-RootHide
+
+Package: com.dao.griddy
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: mikifp
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy
+Filename: ./debs/roothide/com.dao.griddy图标随意摆_1.0.5_iphoneos-arm64e-RootHide.deb
+Size: 18516
+MD5sum: 0c89d3deb265d7a307e3bbaa190a2f2f
+SHA1: ffe4661cf28547d2e48c29bd43f6f89513042966
+SHA256: 0f7e3f39b699b9d3935d70adf3e520f1a140400506fea4207b6e36b9b2c94bd4
+Section: 嗨-工具
+Description: 让你的程序图标在桌面随意摆放；根据开源重新编译。
+Author: mikifp
+Name: Griddy 随意摆(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/griddy/js.json
+
+Package: com.dao.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: ./debs/roothide/com.dao.icleanerpro_7.10.0_iphoneos-arm64e-RootHide.deb
+Size: 2758830
+MD5sum: 52a564cb08c2b9b163e1a49b8f2cde86
+SHA1: 17b53837983f6698b233cf6e753a52ac68533f9a
+SHA256: b0151a96808648674bdcba07d2486cf8ee258f760c398e2d51ac37b258b9571c
+Section: 嗨-工具
+Description: 真正的iOS系统清理和管理实用程序，默认简体中文，破解版。
+Author: Ivano Bilenchi
+Name: iCleaner Pro(rootless)
+
 Package: com.nan.givemedeb
 Version: 0.2.1
 Architecture: iphoneos-arm64e
@@ -115,4 +180,58 @@ Author: zhaonan <invalidunit@icloud.com>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Give me deb
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.yourname.backgroundkeepalive
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: YourName <your.email@example.com>
+Installed-Size: 504
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Suggests: libhooker | substitute
+Conflicts: com.rpetrich.backgrounder, com.jevinskie.backgroundmanager
+Filename: ./debs/roothide/backgroundkeepalive_1.01.deb
+Size: 54610
+MD5sum: a1d3c00579f64ed0040729b29c39280e
+SHA1: d3ea16a45bd6861e15c5c2fe4ada20954d35b3ad
+SHA256: befd6e07fd57f879954adb9552ebef14e332d8caf29f6a3ddc23b35d973c99f3
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/yourname/backgroundkeepalive
+Description: 基于iOS墓碑机制的后台保活插件
+ 这是一个专为Dopamine越狱环境设计的后台保活插件，通过Hook iOS系统的墓碑机制来提高应用的后台留存率。
+ .
+ 主要功能：
+ • 拦截应用挂起和终止操作
+ • 智能内存管理和优化
+ • 自动监控和重启机制
+ • 适配RootHide隐根越狱环境
+ • 长时间稳定运行，自动故障恢复
+ .
+ 支持iOS 14.0及以上版本，兼容arm64和arm64e架构。
+Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17
+Author: YourName <your.email@example.com>
+Depiction: https://yourrepo.com/depictions/backgroundkeepalive
+Name: BackgroundKeepAlive
+Sileodepiction: https://yourrepo.com/sileo/backgroundkeepalive
+
+Package: zp.stopautolaunchapps
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Filename: ./debs/roothide/Hello 3Q-RootHide.deb
+Size: 4630
+MD5sum: bac9567a942511c7e258d88172005f5e
+SHA1: 212729337b61d854214b909717cc61c38d023cce
+SHA256: 8d5921b3fd9f955ce2b79f9c2f96cfc81eb3a644359611e4f8c86d7504bc9052
+Section: Tweaks
+Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
+ - 优点:节约内存,少杀后台.
+ - 玄学:减少重启概率
+Author: zqbb
+Name: Hello 3Q
+Sileodepiction: https://rootless.002599.xyz/web/zp.stopautolaunchapps
 
